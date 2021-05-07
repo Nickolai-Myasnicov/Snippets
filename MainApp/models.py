@@ -18,6 +18,9 @@ class Snippet(models.Model):
                              blank=True, null=True)
     public = models.BooleanField(default=True, null=False)
 
+    def __str__(self):
+        return f"Snippet: {self.name} lang: {self.lang}"
+
 
 class Comment(models.Model):
    text = models.TextField(max_length=1000)
