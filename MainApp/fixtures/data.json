@@ -1,0 +1,26 @@
+[
+  {
+    "model": "MainApp.snippet",
+    "fields": {
+      "name": "Hello world",
+      "lang": "py",
+      "code": "print(\"HW\")",
+      "user": 1,
+      "public": true
+    }
+  },
+  {
+    "model": "MainApp.comment",
+    "fields": {
+      "text": "awgrvsfebwses",
+      "author": 1,
+      "snippet": 1
+    }
+  },
+    {
+    "model": "MainApp.comment",
+    "fields": {
+      "text": "hahahahahhaha"
+    }
+  }
+]
